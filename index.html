@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colors</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section id="section1" class="center-flex">
+    <div class="container">
+      <p id="hex-color">#0c201c</p>
+      <button id="button-color">Change Color</button>
+  </div>
+  </section>
+  <section id="section2" class="center-flex">
+    <div class="container">
+      <div class="inner-container">
+        <div class="color">
+          <label for="red">Red (R)</label>
+          <input id="red" type="range" min="0" max="255" value="50" step="1">
+          <p id="red-text">50</p>
+        </div>
+
+        <div class="color">
+          <label for="green">Green (G)</label>
+          <input id="green" type="range" min="0" max="255" value="50" step="1">
+          <p id="green-text">50</p>
+        </div>
+
+        <div class="color">
+          <label for="blue">Blue (B)</label>
+          <input id="blue" type="range" min="0" max="255" value="50" step="1">
+          <p id="blue-text">50</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="random-color.js"></script>
+  <script src="slide-color.js"></script>
+</body>
+</html>
